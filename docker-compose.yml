@@ -11,7 +11,7 @@ services:
 
   spring-app-cliente:
     build:
-      context: ./api_cadastro_cliente
+      context: ./
       dockerfile: Dockerfile
     ports:
       - "8080:8080"
